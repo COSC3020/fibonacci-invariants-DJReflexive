@@ -44,7 +44,7 @@ Past this point, where n > 1, is where the recursive calles begin so that
 $F(n) = F(n-2) + F(n-1)$
 
 We can now assume the following invariant: **Any n value passed through 
-fibCalc(n) will result in the correct fibonacci value $F(n)&.** 
+fibCalc(n) will result in the correct fibonacci value $F(n)$.** 
 
 As the recusion reaches the base cases, it is defined that n=0 will 
 return 0 and n=1 will return 1. As the algorithm goes back up the 

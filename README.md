@@ -44,7 +44,7 @@ Past this point, where n > 1, is where the recursive calles begin so that
 $F(n) = F(n-2) + F(n-1)$
 
 We can now assume the following invariant: **Any n value passed through 
-fibCalc(n) will result in the correct fibonacci value $F(n)$.** 
+fib(n) will result be the result of $fib(n-2)$ + $fib(n-1)$ for n > 1.** 
 
 As the recusion reaches the base cases, it is defined that n=0 will 
 return 0 and n=1 will return 1. As the algorithm goes back up the 
@@ -60,6 +60,9 @@ which is $F(n)$.
 - ChatGPT: For the in depth description of what an invarient is, 
             examples (not related to this assignment), and steps 
             in how to find one.
+- TA Ali: For how to simplify the algorithm to only one recursive
+            call. (He gave me the idea to use previously stored
+            array elements)
 
 ## Plagiarism Acknowledgement
 

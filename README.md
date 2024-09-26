@@ -43,8 +43,9 @@ Past this point, where n > 1, is where the recursive calles begin so that
 
 $F(n) = F(n-2) + F(n-1)$
 
-We can now assume the following invariant: **Any n value passed through 
-fib(n) will result be the result of $fib(n-2)$ + $fib(n-1)$ for n > 1.** 
+We can now assume the following invariant: 
+**In the loop, at the start of each  iteration, all indices in the array less than n will be in the correct order of the fibonacci sequence.**
+    
 
 As the recusion reaches the base cases, it is defined that n=0 will 
 return 0 and n=1 will return 1. As the algorithm goes back up the 
